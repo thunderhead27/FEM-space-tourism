@@ -1,4 +1,4 @@
-![Alt text](/screenshot.jpg?raw=true "Title")
+![Alt text](screenshot.jpg?raw=true "Title")
 
 # Getting Started with Create React App
 
