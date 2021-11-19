@@ -1,4 +1,4 @@
-![Alt text](screenshot.jpg?raw=true "Title")
+![alt text](https://github.com/thunderhead27/FEM-space-tourism/blob/main/screenshot.png)
 
 # Getting Started with Create React App
 
