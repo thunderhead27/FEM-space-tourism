@@ -71,7 +71,7 @@ const Hero = styled.div`
 		grid-row: 1/2;
 		text-align: start;
 		justify-self: flex-start;
-		margin-top: 300px;
+		margin-top: 250px;
 		margin-left: 100px;
 		margin-bottom: 0px;
 	}
