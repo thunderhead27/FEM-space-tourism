@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+:root {
+  --dark: #0b0d17;
+  --gray: #d0d6f9;
+  --white: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.subheading-1,
+.subheading-2,
+.nav-text,
+p {
+  color: var(--white);
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Bellefair", serif;
+  font-size: 150px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75px;
+  text-transform: uppercase;
+}
+
+.subheading-1 {
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.subheading-2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  text-transform: uppercase;
+}
+
+.nav-text {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+
+@media only screen and (max-width: 1439px) {
+  h2 {
+    font-size: 80px;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.38px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 52px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 2.7px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*::-webkit-scrollbar-thumb {
+  background: rgba(90, 90, 90);
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.4);
 }
